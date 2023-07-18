@@ -31,5 +31,8 @@ function handleSubmit(event){
 
 }
 //write remove row function
+function removeRow(event){
+  event.target.closest('tr').remove();
 
+}
 
