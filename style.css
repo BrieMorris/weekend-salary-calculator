@@ -1,0 +1,83 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(200, 229, 219);
+}
+header {
+  text-align: center;
+  background-color: rgb(58, 80, 80);
+  color: white;
+  padding: 12px 32px;
+  font-weight: 500;
+}
+
+h1 {
+  font-weight: 1000;
+}
+#content {
+  max-width: 700px;
+  margin: 0 auto;
+}
+#employees {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#employees th {
+    border: 1px solid #ddd;
+    padding: 8px;
+   
+}
+
+#employees-info {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#employees-info td {
+  border: 1px solid #ddd;
+    padding: 8px;
+    background-color: rgb(189, 203, 203);
+}
+
+#employees th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: rgb(7, 65, 65);
+  color: white;
+}
+input[type=text],
+input[type=number],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit] {
+  width: 100%;
+  background-color: rgb(181, 39, 110);
+  color: rgb(199, 217, 217);
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+.add-employee-form {
+  margin-bottom: 20px;
+}
