@@ -3,6 +3,7 @@ let lastName = '';
 let idNumber = 0;
 let title = '';
 let annualSalary = 0;
+let monthlyCost = 41667;
 
 function handleSubmit(event){
   event.preventDefault();
@@ -28,11 +29,13 @@ function handleSubmit(event){
       <td><button onclick="removeRow(event)">Delete</button></td>
    </tr>
   `;
+  monthlyCost += Number(salaryVal) / 12;
+ document.querySelector('#monthly-cost').innerHTML = monthlyCost;
+
 
 }
 //write remove row function
 function removeRow(event){
   event.target.closest('tr').remove();
-
 }
 
