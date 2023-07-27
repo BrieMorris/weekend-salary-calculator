@@ -32,10 +32,16 @@ function handleSubmit(event){
   monthlyCost += Number(salaryVal) / 12;
  document.querySelector('#monthly-cost').innerHTML = monthlyCost;
 
+ 
+  if (monthlyCost >= 20000){
+   document.querySelector('.monthlyCost').style.backgroundColor= 'red';
+ } else {
+  console.log('in the budget!');
+ }
 
 }
 //write remove row function
 function removeRow(event){
   event.target.closest('tr').remove();
 }
-
+//need to figure out how to make the monthly cost div red when 20,000 or more.

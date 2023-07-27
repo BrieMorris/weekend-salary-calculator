@@ -73,12 +73,12 @@ button[type=submit] {
   cursor: pointer;
   font-weight: 700;
 }
-
 div {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
 }
-.add-employee-form {
-  margin-bottom: 20px;
-}
+
+/* .monthlyCost {
+  background-color: red;
+} */
